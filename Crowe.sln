@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreAPI", "CoreAPI\CoreAPI.csproj", "{D28DA8C5-4A39-4630-8482-D6BFE5162FD2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreAPI.Test", "CoreAPI.Test\CoreAPI.Test.csproj", "{885DA12F-FBD1-42BB-901F-3BA3BBD6B6FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiClient", "ApiClient\ApiClient.csproj", "{60F053D0-77AE-4D4F-B5AC-B2AD80601479}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D28DA8C5-4A39-4630-8482-D6BFE5162FD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D28DA8C5-4A39-4630-8482-D6BFE5162FD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D28DA8C5-4A39-4630-8482-D6BFE5162FD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D28DA8C5-4A39-4630-8482-D6BFE5162FD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{885DA12F-FBD1-42BB-901F-3BA3BBD6B6FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{885DA12F-FBD1-42BB-901F-3BA3BBD6B6FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{885DA12F-FBD1-42BB-901F-3BA3BBD6B6FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{885DA12F-FBD1-42BB-901F-3BA3BBD6B6FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60F053D0-77AE-4D4F-B5AC-B2AD80601479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F053D0-77AE-4D4F-B5AC-B2AD80601479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F053D0-77AE-4D4F-B5AC-B2AD80601479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F053D0-77AE-4D4F-B5AC-B2AD80601479}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE62B6FD-6D22-48A8-8A76-8F4A333E1FF1}
+	EndGlobalSection
+EndGlobal
